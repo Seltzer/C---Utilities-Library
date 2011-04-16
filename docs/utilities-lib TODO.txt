@@ -1,0 +1,6 @@
+TODO:
+* Fix ul_enum
+* Add non-Windows counterparts for some of the code
+* Compile time asserts
+
+

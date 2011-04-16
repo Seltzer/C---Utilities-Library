@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="docs">
+      <UniqueIdentifier>{08033b43-14c4-44ca-9309-57507dbdb9f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{43555772-2bb7-42c1-9ba0-623259bffa21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{bc693f43-ee06-45a8-8220-e4a2ef4faf8b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="docs\utilities-lib TODO.txt">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="src\lockManager.inl">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\threadsafeBuffer.inl">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\process.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\random.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\strings.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\dataStructures.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enum.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\exceptions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lockManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\macros.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\process.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\templateMP.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\threadsafeBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

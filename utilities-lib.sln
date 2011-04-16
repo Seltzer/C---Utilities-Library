@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utilities-lib", "utilities-lib.vcproj", "{BCF21EF2-13E9-4240-8FA6-A089BE1CC3C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utilities-lib tests", "utilities-lib tests\utilities-lib tests.vcproj", "{5AEEC043-ACD7-4D35-9C10-5B52216F5820}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BCF21EF2-13E9-4240-8FA6-A089BE1CC3C6} = {BCF21EF2-13E9-4240-8FA6-A089BE1CC3C6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCF21EF2-13E9-4240-8FA6-A089BE1CC3C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BCF21EF2-13E9-4240-8FA6-A089BE1CC3C6}.Debug|Win32.Build.0 = Debug|Win32
+		{BCF21EF2-13E9-4240-8FA6-A089BE1CC3C6}.Release|Win32.ActiveCfg = Release|Win32
+		{BCF21EF2-13E9-4240-8FA6-A089BE1CC3C6}.Release|Win32.Build.0 = Release|Win32
+		{5AEEC043-ACD7-4D35-9C10-5B52216F5820}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5AEEC043-ACD7-4D35-9C10-5B52216F5820}.Debug|Win32.Build.0 = Debug|Win32
+		{5AEEC043-ACD7-4D35-9C10-5B52216F5820}.Release|Win32.ActiveCfg = Release|Win32
+		{5AEEC043-ACD7-4D35-9C10-5B52216F5820}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
